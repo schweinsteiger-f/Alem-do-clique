@@ -2,7 +2,6 @@
 /* cor do fundo */
 body{
     background-color: rgb(255, 255, 255);
-    cursor: grab;
 }
 
 /* estilo dos elementos titulo e subtitulo */
@@ -44,7 +43,7 @@ button {
     font-size: 18px;
     border: solid 1px rgb(6, 6, 148);
     padding: 10px;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 /* div dos butão */
@@ -56,10 +55,25 @@ button {
 
 /* ao deixar o mouse sobre o botão  */
 button:hover{
-    color: #00ff2a;
-    background-color: #0f5a00;
     font-size: 19px;
-    border: solid 1px rgb(0, 68, 9);
+     border: solid 1px rgb(6, 6, 148);
     padding: 10px;
-    border-radius: 12px;
+    border-radius: 10px;
+    color: aqua;
+    background-color: rgb(0, 9, 133);
+}
+
+/* botão de tema light/dark */
+#tema{
+    color: black;
+    background-color: rgba(206, 206, 206, 0.479);
+    font-size: 19px;
+    border: solid 1px gray;
+}
+
+/* div para o tema */
+.theme-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

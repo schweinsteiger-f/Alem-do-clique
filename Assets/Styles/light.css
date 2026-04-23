@@ -1,0 +1,79 @@
+
+/* cor do fundo */
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+/* estilo dos elementos titulo e subtitulo */
+.header-container h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(236, 236, 236);
+    text-shadow: 2px 2px 4px rgb(199, 199, 199);
+}
+.header-container h2{
+    text-align: center;
+    color: rgb(71, 29, 255);
+    text-shadow: 1px 1px 2px rgba(2, 96, 124, 0.3);
+}
+
+/* container (div para textos) */
+.text-container{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+    box-shadow: 3px 2px 8px rgb(255, 255, 255);
+    font-size: larger;
+    color: #dfdfdf;
+}
+
+/* container para o cartaz */
+.image-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+/* botão de entrar no site */
+button {
+    color: #89e7ff;
+    background-color: #001aff;
+    font-size: 18px;
+    border: solid 1px rgb(6, 6, 148);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* div dos butão */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ao deixar o mouse sobre o botão  */
+button:hover{
+    font-size: 19px;
+     border: solid 1px rgb(6, 6, 148);
+    padding: 10px;
+    border-radius: 10px;
+    color: aqua;
+    background-color: rgb(0, 9, 133);
+}
+
+/* botão de tema light/dark */
+#tema{
+    color: black;
+    background-color: rgba(206, 206, 206, 0.479);
+    font-size: 19px;
+    border: solid 1px gray;
+}
+
+/* div para o tema */
+.theme-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
