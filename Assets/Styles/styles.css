@@ -1,7 +1,7 @@
-
 /* cor do fundo */
 body{
     background-color: rgb(255, 255, 255);
+    cursor: hand;
 }
 
 /* estilo dos elementos titulo e subtitulo */
@@ -40,7 +40,7 @@ body{
 button {
     color: #89e7ff;
     background-color: #001aff;
-    font-size: 18px;
+    font-size: 26px;
     border: solid 1px rgb(6, 6, 148);
     padding: 10px;
     border-radius: 10px;
@@ -55,7 +55,7 @@ button {
 
 /* ao deixar o mouse sobre o botão  */
 button:hover{
-    font-size: 19px;
+    font-size: 27px;
      border: solid 1px rgb(6, 6, 148);
     padding: 10px;
     border-radius: 10px;

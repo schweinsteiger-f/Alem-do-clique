@@ -1,0 +1,30 @@
+body{
+    background-color: #bee7ff;
+}
+#titulo{
+    text-align: center;
+    color: #1717ff;
+    font-family: 'Arial', sans-serif;
+    font-size: 39px;
+}
+#subtitulo{
+    text-align: center;
+    color: #00005e;
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+}
+header{
+    margin-bottom: 40px;
+}
+.aviso p{
+text-align: left;
+}
+.aviso{
+    margin-left: 300px;
+    border: solid 2px rgba(197, 197, 197, 0.849);
+    background-color: rgba(190, 190, 190, 0.384);
+    border-radius: 12px;
+    margin-right: 300px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
